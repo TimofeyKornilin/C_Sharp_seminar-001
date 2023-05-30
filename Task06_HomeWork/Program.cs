@@ -14,7 +14,8 @@ Console.Write("Enter integer number: ");
 double number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("");
 
-if (((number/2)*10) % 10 == 0) Console.WriteLine($"Yes, the number {number} is even number");
+if (number % 2 == 0) Console.WriteLine($"Yes, the number {number} is even number");
+//if (((number/2)*10) % 10 == 0) Console.WriteLine($"Yes, the number {number} is even number");
 else Console.WriteLine($"No, the number {number} is not even number");
 
 Console.WriteLine("");
